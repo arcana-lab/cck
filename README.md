@@ -31,7 +31,7 @@ make init
 make CLASS=C BENCHMARK=EP.o build_nautilus
 ```
 
-# Run the benchmark from within Nautilus (on QEMU)
+## Run the benchmark from within Nautilus (on QEMU)
 ```
 make run_nautilus
 ```
