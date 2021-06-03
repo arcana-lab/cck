@@ -13,13 +13,18 @@ Binaries we generated for both Linux and Nautilus OS are under the directory
 binaries
 ```
 
-## Fetch compilers, binaries, and nautilus
+You can run the Linux/AutoMP binaries from binaries/linux.
+For example, to run EP follow the next steps:
+```
+shell> cd binaries/linux/C 
+shell> ./EP_binary_static
+```
+
+## Fetch compilers, NAS benchmarks source code, and nautilus
 Run from the top directory
 ```
 make init
 ```
-
-You can now run the Linux/AutoMP binaries from binaries/linux
 
 ## Build Nautilus with appropriate benchmark (example here is class C EP)
 ```
