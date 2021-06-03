@@ -20,9 +20,9 @@ build_nautilus_benchmarks: nas_automp
 
 build_nautilus:
 	cd nautilus_cck && cp configs/cck-config .config &&  ln -s -f ../binaries/nautilus/$(CLASS)/$(BENCHMARK) parallelized.o
-	cd nautilus_cck && make isoimage
+	cd nautilus_cck && make clean && make -j isoimage
 
-run_nautilus:
+run_nautilus: 
 	@echo "At the root-shell> prompt"
 	@echo "virgil _numcpus N to set the number of cpus to use\n"
 	@echo "virgil test to run the test of $(BENCHMARK)\n"
