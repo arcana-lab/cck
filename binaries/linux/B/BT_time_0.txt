@@ -1,0 +1,55 @@
+
+
+ NAS Parallel Benchmarks 3.0 structured OpenMP C version - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size: 102x102x102
+ Iterations: 200   dt:   0.000300
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  1.0000000000000e-08
+ Comparison of RMS-norms of residual
+           0                -nan 1.4233597229287e+03                 nan
+           1                -nan 9.9330522590150e+01                 nan
+           2                -nan 3.5646025644535e+02                 nan
+           3                -nan 3.2485447959084e+02                 nan
+           4                -nan 3.2707541254659e+03                 nan
+ Comparison of RMS-norms of solution error
+           0                -nan 5.2969847140937e+01                 nan
+           1                -nan 4.4632896115671e+00                 nan
+           2                -nan 1.3122573342210e+01                 nan
+           3                -nan 1.2006925323559e+01                 nan
+           4                -nan 1.2459576151036e+02                 nan
+ Verification Successful
+
+
+ BT Benchmark Completed
+ Class           =                        B
+ Size            =              102x102x102
+ Iterations      =                      200
+ Threads         =                        1
+ Time in seconds =                   180.44
+ Mop/s total     =                  3891.58
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =           3.0 structured
+ Compile date    =              30 Mar 2021
+
+ Compile options:
+    CC           = clang
+    CLINK        = clang
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -O3 -fopenmp
+    CLINKFLAGS   = -lm -mcmodel=large -fopenmp
+    RAND         = (none)

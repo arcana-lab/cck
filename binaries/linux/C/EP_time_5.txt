@@ -1,0 +1,42 @@
+
+
+ NAS Parallel Benchmarks 3.0 structured OpenMP C version - EP Benchmark
+ Number of random numbers generated:    8589934592
+EP Benchmark Results: 
+CPU Time =    54.4600
+N = 2^   32
+No. Gaussian Pairs =      3373275903
+Sums =     4.764367927995588e+04    -8.084072988039894e+04
+Counts:
+  0      1572172634
+  1      1501108549
+  2       281805648
+  3        17761221
+  4          424017
+  5            3821
+  6              13
+  7               0
+  8               0
+  9               0
+
+
+ EP Benchmark Completed
+ Class           =                        C
+ Size            =                       33
+ Iterations      =                        0
+ Threads         =                        1
+ Time in seconds =                    54.46
+ Mop/s total     =                   157.73
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =           3.0 structured
+ Compile date    =              30 Mar 2021
+
+ Compile options:
+    CC           = clang
+    CLINK        = clang
+    C_LIB        = (none)
+    C_INC        = -I../common
+    CFLAGS       = -O3 -fopenmp
+    CLINKFLAGS   = -lm -mcmodel=large -fopenmp
+    RAND         = randdp
