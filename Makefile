@@ -1,7 +1,7 @@
 all: nas_automp
 
 nas_automp:
-	git clone git@github.com:scampanoni/nas_automp.git $@
+	git clone https://github.com/scampanoni/nas_automp.git $@
 	cd $@ ; make ;
 
 clean:
