@@ -30,7 +30,7 @@ run_nautilus:
 	@cd nautilus_cck; ./run-cck
 
 clean:
-	-rm -rf nas_automp
-	-rm -rf nautilus_cck
+	rm -rf nas_automp
+	rm -rf nautilus_cck
 
 .PHONY: clean Linux Nautilus
