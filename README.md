@@ -1,10 +1,10 @@
 # CCK
 
-This is the top-level git repository for the CCK compiler
+This is the top-level git repository for the CCK compiler.
 
 ## Assumptions
-There are a number of tools that need to be installed and set up to
-build this codebase.   Please see the overall artifact description's readme file for these details.
+There are a number of tools that need to be installed and set up to build this codebase.   
+Please see the overall artifact description's readme file for these details.
 
 
 ## Binaries
