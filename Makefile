@@ -3,7 +3,6 @@ BENCHMARK = EP.o  # list of supported binaries
 
 init: nas_automp nautilus_cck
 
-
 nas_automp:
 	git clone https://github.com/scampanoni/nas_automp.git $@
 	cd $@ ; make ;
