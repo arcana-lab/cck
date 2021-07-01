@@ -18,7 +18,7 @@ build_nautilus_benchmarks: nas_automp
 	cd nas_automp ; git checkout nautilus ; ./bin/compile_benchmarks.sh ;
 
 build_nautilus:
-	cd nautilus_cck && cp configs/cck-config .config &&  ln -s -f ../binaries/nautilus/$(CLASS)/$(BENCHMARK) parallelized.o
+	cd nautilus_cck && cp configs/cck-config .config &&  ln -s -f ../binaries/64_cores/nautilus/$(CLASS)/$(BENCHMARK) parallelized.o
 	cd nautilus_cck && make clean && make -j isoimage
 
 run_nautilus: 
